@@ -6,7 +6,7 @@ class Movie < ActiveRecord::Base
     
   end
 
-  def method_name
+  def save
     
   end
 end
