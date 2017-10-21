@@ -26,7 +26,7 @@ end
 
 def can_be_created_in_a_block
   Movie.create do |m|
-    puts(m)
+    movie = Movie.new(m)
   end
 end
 
