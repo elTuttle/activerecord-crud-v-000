@@ -1,5 +1,5 @@
-class Movie < ApplicationRecord
+class Movie < ActiveRecord::Base
 
   attr_accessor :attributes
-
+  
 end
