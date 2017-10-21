@@ -1,6 +1,6 @@
 class Movie < ActiveRecord::Base
 
-  attr_accessor :name
+  attr_accessor :attributes
 
   def initialize(attributes = {})
 
