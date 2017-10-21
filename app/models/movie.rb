@@ -5,10 +5,4 @@ class Movie < ActiveRecord::Base
   def initialize(attributes = {})
 
   end
-
-  def save
-    sql = <<-SQL 
-      INSERT INTO movies ()
-    SQL
-  end
 end
