@@ -26,7 +26,7 @@ end
 
 def can_be_created_in_a_block
   Movie.create do |m|
-    movie = Movie.new(m)
+    movie = Movie.create(m)
   end
 end
 
